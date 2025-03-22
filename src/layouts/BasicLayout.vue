@@ -11,7 +11,6 @@ import GlobalHeader from '@/components/GlobalHeader.vue'
       <a-layout-content class="content">
         <router-view />
       </a-layout-content>
-      <a-layout-footer>Footer</a-layout-footer>
     </a-layout>
     <a-layout-footer class="footer">
       <a href="https://github.com/HalcyonJX" target="_blank"> 智能协同云图库 By HalcyonJX </a>
