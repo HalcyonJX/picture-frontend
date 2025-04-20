@@ -79,6 +79,7 @@ const handleSubmit = async (values: any) => {
   </div>
 </template>
 
+
 <style scoped>
 #userRegisterPage {
   max-width: 360px;
