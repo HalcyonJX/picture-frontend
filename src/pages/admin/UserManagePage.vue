@@ -45,7 +45,7 @@
 
 <script lang="ts" setup>
 import { computed, onMounted, reactive, ref } from 'vue'
-import { listUserVoByPageUsingPost } from '@/api/userController'
+import { deleteUserUsingPost, listUserVoByPageUsingPost } from '@/api/userController'
 import { message } from 'ant-design-vue'
 import dayjs from 'dayjs'
 
@@ -155,8 +155,6 @@ const doDelete = async (id: string) => {
     message.error('删除失败')
   }
 }
-
-
 </script>
 
 <style scoped></style>
