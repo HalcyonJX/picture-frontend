@@ -119,7 +119,7 @@ const originItems = [
   },
   {
     key: 'others',
-    label: h('a', { href: 'https://github.com/HalcyonJX/picture-backend', target: '_blank' }, '智能协同云图库'),
+    label: h('a', { href: 'https://github.com/HalcyonJX/codeOJ-backend', target: '_blank' }, '编程刷题网'),
     title: '智能协同云图库',
   },
 ]
